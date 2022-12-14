@@ -1,0 +1,27 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+h1{
+	font-size: 30px; color: RosyBrown;
+}
+
+h2{
+	font-size: 20px; color: YellowGreen ;
+}
+
+h2{
+	color: Violet;  /* if there is 2 same style, the last written will take precedence */
+
+} 
+
+span{						/* edit tất cả các class có thuộc tính span*/
+	color: deeppink;
+}
+
+h1 span {					/* edit only các lớp có h1 và span */
+	color: seagreen;
+}
+
+.uppercase{					/* edit các lớp mình tạo ra phải thêm dấu . trước tên lớp */
+	text-transform: uppercase;
+}
